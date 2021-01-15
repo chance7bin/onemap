@@ -1,0 +1,19 @@
+{
+  "name": "onemap",
+  "version": "1.0.0",
+  "description": "onemap app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bin",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "ol": "^6.4.3",
+    "vuex": "^3.6.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

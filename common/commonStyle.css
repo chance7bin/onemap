@@ -1,0 +1,72 @@
+
+/* 顶部占位符 */
+.top-wrapper {
+	height: var(--status-bar-height);
+	width: 100%;
+	background-color: white;
+	/* background-color: #c6c6c6; */
+}
+
+/* 侧边栏 */
+.side-menu{
+	/* padding: 0 10rpx; */
+	width: 180rpx;
+	height: 300rpx; 
+	/* background-color: #55ffff; */
+	background-color: #FFFFFF;
+	position: absolute;
+	top: calc(var(--status-bar-height) + 50rpx + 20rpx);
+	left: 20rpx;
+	border-radius: 10rpx;
+	box-shadow: 2px 4px 6px #595959;
+	/* transition:all 1s linear 0s; */
+}
+.menu-top{
+	height: 40rpx; 
+	background-color: #0090ff;
+	border-radius: 10rpx 10rpx 0 0; 
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;  
+	padding: 0 10rpx;
+}
+.menu-padding{
+	padding: 0 10rpx;
+}
+.menu-top-title{
+	font-size: 16rpx;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.menu-top-icon{
+	font-size: 16rpx;
+	font-weight: bold;
+	color: #d4d4d4;
+}
+
+.layer-scroll{
+	height: 220rpx; 
+	width: 150rpx; 
+	margin: 10upx auto;
+}
+
+.feature-detail{
+	height: 100rpx;
+	width: 90%;
+	margin: 5%;
+	white-space: nowrap;
+	overflow: auto;
+}
+.feature-detail div{
+	/* font-size: 14rpx; */
+	display: flex;
+	/* color: #4b4b4b; */
+}
+
+.feature-detail p{
+	font-size: 14rpx;
+	color: #4b4b4b;
+	/* color: #4b4b4b; */
+	/* padding-left: 15rpx; */
+	/* border-bottom: 1rpx solid #a8a8a8; */
+}
