@@ -9,8 +9,8 @@ module.exports = {
 				{
 					name:'地级行政区',
 					value:'prefectureDistrict',
-					layerName:'shareCupMapData:prefecturedistrict_4326',
-					serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:prefecturedistrict_4326&tiled=true&srsname=EPSG:4326',
+					layerName:'onemap:prefecturedistrict_4326',
+					serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:prefecturedistrict_4326&tiled=true&srsname=EPSG:4326',
 					isChecked:true,
 					serviceType:'wms',
 					//需弹窗展示的属性
@@ -23,8 +23,8 @@ module.exports = {
 				{
 					name:'县级行政区',
 					value:'countyDistrict',
-					layerName:'shareCupMapData:countydistrict_4326',
-					serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:countydistrict_4326&tiled=true&srsname=EPSG:4326',
+					layerName:'onemap:countydistrict_4326',
+					serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:countydistrict_4326&tiled=true&srsname=EPSG:4326',
 					isChecked:false,
 					serviceType:'wms',
 					displayProps:[
@@ -44,8 +44,8 @@ module.exports = {
 				{
 					name:'国道',
 					value:'nationalHighway',
-					layerName:'shareCupMapData:nationalhighway_4326',
-					serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:nationalhighway_4326&tiled=true&srsname=EPSG:4326',
+					layerName:'onemap:nationalhighway_4326',
+					serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:nationalhighway_4326&tiled=true&srsname=EPSG:4326',
 					isChecked:true,
 					serviceType:'wms',
 					displayProps:[
@@ -61,8 +61,8 @@ module.exports = {
 				{
 					name:'省道',
 					value:'provincialHighway',
-					layerName:'shareCupMapData:provincialhighway_4326',
-					serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:provincialhighway_4326&tiled=true&srsname=EPSG:4326',
+					layerName:'onemap:provincialhighway_4326',
+					serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:provincialhighway_4326&tiled=true&srsname=EPSG:4326',
 					isChecked:false,
 					serviceType:'wms',
 					displayProps:[
@@ -78,8 +78,8 @@ module.exports = {
 				{
 					name:'县道',
 					value:'countyHighway',
-					layerName:'shareCupMapData:countyhighway_4326',
-					serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:countyhighway_4326&tiled=true&srsname=EPSG:4326',
+					layerName:'onemap:countyhighway_4326',
+					serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:countyhighway_4326&tiled=true&srsname=EPSG:4326',
 					isChecked:false,
 					serviceType:'wms',
 					displayProps:[
@@ -94,8 +94,8 @@ module.exports = {
 				{
 					name:'乡道',
 					value:'townshipRoad',
-					layerName:'shareCupMapData:townshiproad_4326',
-					serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:townshiproad_4326&tiled=true&srsname=EPSG:4326',
+					layerName:'onemap:townshiproad_4326',
+					serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:townshiproad_4326&tiled=true&srsname=EPSG:4326',
 					isChecked:false,
 					serviceType:'wms',
 					displayProps:[
@@ -108,8 +108,8 @@ module.exports = {
 				{
 					name:'高速公路',
 					value:'expressway',
-					layerName:'shareCupMapData:expressway_4326',
-					serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:expressway_4326&tiled=true&srsname=EPSG:4326',
+					layerName:'onemap:expressway_4326',
+					serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:expressway_4326&tiled=true&srsname=EPSG:4326',
 					isChecked:false,
 					serviceType:'wms',
 					displayProps:[
@@ -135,8 +135,8 @@ module.exports = {
 				{
 					name:'服务区',
 					value:'serviceArea',
-					layerName:'shareCupMapData:servicearea_4326',
-					serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:servicearea_4326&tiled=true&srsname=EPSG:4326',
+					layerName:'onemap:servicearea_4326',
+					serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:servicearea_4326&tiled=true&srsname=EPSG:4326',
 					isChecked:false,
 					serviceType:'wms',
 					displayProps:[
@@ -149,8 +149,8 @@ module.exports = {
 				{
 					name:'互通',
 					value:'interflow',
-					layerName:'shareCupMapData:interflow_4326',
-					serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:interflow_4326&tiled=true&srsname=EPSG:4326',
+					layerName:'onemap:interflow_4326',
+					serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:interflow_4326&tiled=true&srsname=EPSG:4326',
 					isChecked:false,
 					serviceType:'wms',
 					displayProps:[
@@ -163,8 +163,8 @@ module.exports = {
 				{
 					name:'交调站',
 					value:'trafficSurveyStation',
-					layerName:'shareCupMapData:trafficsurveystation_4326',
-					serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:trafficsurveystation_4326&tiled=true&srsname=EPSG:4326',
+					layerName:'onemap:trafficsurveystation_4326',
+					serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:trafficsurveystation_4326&tiled=true&srsname=EPSG:4326',
 					isChecked:true,
 					serviceType:'wms',
 					displayProps:[
@@ -177,9 +177,9 @@ module.exports = {
 				{
 					name:'桥梁',
 					value:'bridge',
-					layerName:'shareCupMapData:bridge_4326',
-					// serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=shareCupMapData:bridge_4326&outputFormat=application%2Fjson&srsname=EPSG:4326',
-					serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:bridge_4326&tiled=true&srsname=EPSG:4326',
+					layerName:'onemap:bridge_4326',
+					// serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=onemap:bridge_4326&outputFormat=application%2Fjson&srsname=EPSG:4326',
+					serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:bridge_4326&tiled=true&srsname=EPSG:4326',
 					isChecked:false,
 					serviceType:'wms',
 					//有的时候属性表(geoserver中的属性表)里是英文,显示的时候需显示中文,那么displayProps中的item设置为对象类型{name:'',value:''}
@@ -193,8 +193,8 @@ module.exports = {
 				{
 					name:'隧道',
 					value:'tunnel',
-					layerName:'shareCupMapData:tunnel_4326',
-					serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:tunnel_4326&tiled=true&srsname=EPSG:4326',
+					layerName:'onemap:tunnel_4326',
+					serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:tunnel_4326&tiled=true&srsname=EPSG:4326',
 					isChecked:false,
 					serviceType:'wms',
 					displayProps:[
@@ -375,62 +375,62 @@ module.exports = {
 		{
 			text:'地级行政区',
 			value:'prefectureDistrict',
-			serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:prefecturedistrict_4326&tiled=true&srsname=EPSG:4326'
+			serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:prefecturedistrict_4326&tiled=true&srsname=EPSG:4326'
 		},
 		{
 			text:'县级行政区',
 			value:'countyDistrict',
-			serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:countydistrict_4326&tiled=true&srsname=EPSG:4326'
+			serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:countydistrict_4326&tiled=true&srsname=EPSG:4326'
 		},
 		{
 			text:'国道',
 			value:'nationalHighway',
-			serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:nationalhighway_4326&tiled=true&srsname=EPSG:4326'
+			serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:nationalhighway_4326&tiled=true&srsname=EPSG:4326'
 		},
 		{
 			text:'省道',
 			value:'provincialHighway',
-			serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:provincialhighway_4326&tiled=true&srsname=EPSG:4326'
+			serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:provincialhighway_4326&tiled=true&srsname=EPSG:4326'
 		},
 		{
 			text:'县道',
 			value:'countyHighway',
-			serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:countyhighway_4326&tiled=true&srsname=EPSG:4326'
+			serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:countyhighway_4326&tiled=true&srsname=EPSG:4326'
 		},
 		{
 			text:'乡道',
 			value:'townshipRoad',
-			serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:townshiproad_4326&tiled=true&srsname=EPSG:4326'
+			serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:townshiproad_4326&tiled=true&srsname=EPSG:4326'
 		},
 		{
 			text:'高速公路',
 			value:'expressway',
-			serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:expressway_4326&tiled=true&srsname=EPSG:4326'
+			serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:expressway_4326&tiled=true&srsname=EPSG:4326'
 		},
 		{
 			text:'服务区',
 			value:'serviceArea',
-			serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:servicearea_4326&tiled=true&srsname=EPSG:4326'
+			serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:servicearea_4326&tiled=true&srsname=EPSG:4326'
 		},
 		{
 			text:'互通',
 			value:'interflow',
-			serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:interflow_4326&tiled=true&srsname=EPSG:4326'
+			serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:interflow_4326&tiled=true&srsname=EPSG:4326'
 		},
 		{
 			text:'交调站',
 			value:'trafficSurveyStation',
-			serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:trafficsurveystation_4326&tiled=true&srsname=EPSG:4326'
+			serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:trafficsurveystation_4326&tiled=true&srsname=EPSG:4326'
 		},
 		{
 			text:'桥梁',
 			value:'bridge',
-			serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:bridge_4326&tiled=true&srsname=EPSG:4326'
+			serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:bridge_4326&tiled=true&srsname=EPSG:4326'
 		},
 		{
 			text:'隧道',
 			value:'tunnel',
-			serviceUrl:'http://geomodeling.njnu.edu.cn/onemap/geoserver/shareCupMapData/wms?service=WMS&version=1.1.0&request=GetMap&layers=shareCupMapData:tunnel_4326&tiled=true&srsname=EPSG:4326'
+			serviceUrl:'http://fzzt.fzjhdn.com:10080/geoserver/onemap/wms?service=WMS&version=1.1.0&request=GetMap&layers=onemap:tunnel_4326&tiled=true&srsname=EPSG:4326'
 		}
 	],
 	// 默认选中图层
